@@ -10,6 +10,13 @@ body {
   src: local("stellen-2"), url(/fonts/stellen-2.otf);
 }
 
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Lato"), url(/fonts/Lato/Lato-Black.ttf);
+}
+
 .logo {
   font-family: "stellen-2";
   font-size: 46px;
@@ -44,24 +51,53 @@ body {
   display: flex;
   align-items: center;
 }
-.number-phone {
+a {
   color: #000;
   text-decoration: none;
   font-family: "stellen-2";
 }
 .header__info {
-  width: 300px;
+  width: 500px;
   text-align: center;
   display: flex;
 }
-
-.header__text {
-  font-size: 20px;
+.header__info__text {
+  margin-top: 200px;
 }
 
 .header__text {
-  font-size: 20px;
+  font-weight: 500;
+  font-family: "Vollkorn";
+  font-size: 26px;
+  margin-bottom: 15px;
 }
+.header__text2 {
+  font-weight: 500;
+  font-family: "Vollkorn";
+  font-size: 26px;
+  margin-top: 10px;
+}
+.header__text3 {
+  font-weight: 300;
+  font-family: "Vollkorn";
+  font-size: 23px;
+}
+.header__button {
+  margin: 20px 0;
+  background-color: #4caf50; /* Зеленый цвет */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .header__title {
   font-size: 35px;
+  font-weight: 900;
+  font-family: "Vollkorn";
+  text-transform: uppercase;
 }

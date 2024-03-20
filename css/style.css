@@ -1,22 +1,58 @@
+body {
+  background-color: rgb(255, 255, 255);
+
+  z-index: -2;
+}
+@font-face {
+  font-family: "stellen-2";
+  font-style: normal;
+  font-weight: normal;
+  src: local("stellen-2"), url(/fonts/stellen-2.otf);
+}
+
+.logo {
+  font-family: "stellen-2";
+  font-size: 46px;
+}
+
+.smartphone-logo {
+  width: 40px;
+}
+.img_fon {
+  position: absolute;
+  z-index: -1;
+  width: 750px;
+  right: 0;
+}
 .container {
   max-width: 1200px;
-  height: 100vh;
   margin: 0 auto;
-  background-color: rgb(134, 120, 120);
 }
 
 .main {
   margin: 20px 20px;
+  height: 700px;
+  position: relative;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-
+.header__tel {
+  display: flex;
+  align-items: center;
+}
+.number-phone {
+  color: #000;
+  text-decoration: none;
+  font-family: "stellen-2";
+}
 .header__info {
   width: 300px;
   text-align: center;
+  display: flex;
 }
 
 .header__text {

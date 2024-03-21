@@ -143,6 +143,7 @@ a {
   display: flex;
   gap: 20px;
   margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .tarif-blokc {
   background-color: #ede7e7;
@@ -184,4 +185,58 @@ a {
 }
 .tarif-button {
   text-align: center;
+}
+footer {
+  background-color: #ede7e7;
+}
+.logos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.logos_massege {
+  display: flex;
+  gap: 20px;
+}
+.footer__wraper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.footer_logo_massege {
+  width: 50px;
+}
+.nav-footer-link {
+  font-weight: 300;
+  font-family: "Vollkorn";
+  font-size: 20px;
+}
+.nav-footer-list {
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.adress {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.time {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer-contacts_logos {
+  width: 20px;
+}
+.footer-contacts-text {
+  font-weight: 300;
+  font-family: "Vollkorn";
+  font-size: 17px;
 }
